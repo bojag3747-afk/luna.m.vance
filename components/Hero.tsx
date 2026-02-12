@@ -34,8 +34,8 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="pt-8 animate-fade-in-up delay-300 flex flex-col items-center">
-          {/* Portfolio 섹션으로 이동하도록 href 설정 및 문구 업데이트 */}
-          <a href="#portfolio" className="inline-block group relative px-12 py-5 bg-luxe-gold text-luxe-green transition-all duration-300 ease-out hover:bg-white hover:shadow-[0_0_20px_rgba(196,164,100,0.5)] overflow-hidden rounded-sm">
+          {/* Points to the specific ID of the first portfolio item */}
+          <a href="#portfolio-item-1" className="inline-block group relative px-12 py-5 bg-luxe-gold text-luxe-green transition-all duration-300 ease-out hover:bg-white hover:shadow-[0_0_20px_rgba(196,164,100,0.5)] overflow-hidden rounded-sm">
             <span className="relative z-10 text-sm tracking-[0.2em] uppercase font-bold">Explore the Masterpiece Gallery</span>
           </a>
           <p className="mt-4 text-[10px] md:text-xs tracking-[0.25em] uppercase font-bold text-luxe-gold animate-pulse">

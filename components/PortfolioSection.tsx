@@ -33,12 +33,13 @@ const PORTFOLIO_ITEMS = [
 ];
 
 const PortfolioCard: React.FC<{
+  id: string;
   beforeSrc: string;
   afterSrc: string;
   name: string;
   breed: string;
-}> = ({ beforeSrc, afterSrc, name, breed }) => (
-  <div className="group relative">
+}> = ({ id, beforeSrc, afterSrc, name, breed }) => (
+  <div id={id} className="group relative scroll-mt-32">
     <div className="relative aspect-[4/5] overflow-hidden bg-luxe-green shadow-xl">
       <img 
         src={afterSrc} 
@@ -76,6 +77,7 @@ const PortfolioSection: React.FC = () => {
           {PORTFOLIO_ITEMS.map((item) => (
             <PortfolioCard 
               key={item.id}
+              id={`portfolio-item-${item.id}`}
               afterSrc={item.after}
               beforeSrc={item.before}
               name={item.name}
