@@ -66,7 +66,7 @@ const PricingSection: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-6 md:gap-0 items-center max-w-5xl mx-auto mb-20">
           <PricingCard 
             title="The Heritage Solo"
-            price="$29"
+            price="$9"
             link="https://ko-fi.com/s/bc75573bc2"
             features={[
               "1 Pet Subject",
@@ -77,7 +77,7 @@ const PricingSection: React.FC = () => {
           />
           <PricingCard 
             title="The Royal Gallery"
-            price="$49"
+            price="$25"
             link="https://ko-fi.com/s/47d4009546"
             features={[
               "Up to 3 Pet Subjects (1 Pet per Piece)",
@@ -89,7 +89,7 @@ const PricingSection: React.FC = () => {
           />
           <PricingCard 
             title="The Ultimate Legacy"
-            price="$69"
+            price="$40"
             link="https://ko-fi.com/s/5709c6db1a"
             features={[
               "5 Masterpiece Portraits (1 Pet per Piece)",
